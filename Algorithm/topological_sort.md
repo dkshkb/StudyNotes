@@ -26,5 +26,5 @@ else
 
 
 Leetcode: 
-- 207. Course Schedule
+- 207 Course Schedule
 
