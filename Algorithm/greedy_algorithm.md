@@ -61,7 +61,7 @@ The length of the encoding of a char: depth in encoding tree
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=f_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_i" title="f_i" /></a>: frequency of char i
  
-cost of tree = $`\sum f_i`$ * (depth of ith symbol in the tree) 
+cost of tree = <a href="https://www.codecogs.com/eqnedit.php?latex=\sum&space;f_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum&space;f_i" title="\sum f_i" /></a> * (depth of ith symbol in the tree) 
 
 The total cost of a tree is the sum of the frequencies for all leaves and internal nodes, except for the root
 
