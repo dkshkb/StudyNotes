@@ -59,7 +59,9 @@ Example
 
 The length of the encoding of a char: depth in encoding tree
 
-$`f_i`$: frequency of char i
+```math
+f_i```
+: frequency of char i
  
 cost of tree = $`\sum f_i`$ * (depth of ith symbol in the tree) 
 
