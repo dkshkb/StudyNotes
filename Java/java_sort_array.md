@@ -31,6 +31,7 @@ public class SortArrayCustomize {
         strs = new String[]{"abbd", "ab", "abc", "afafaa", "d", "b"};
         Arrays.sort(strs, Comparator.comparingInt(String::length));
         // Arrays.sort(strs, Comparator.comparing(String::length)); also works
+        // Arrays.sort(strs, Comparator.comparingInt(s -> s.length())); also works
         for (String str : strs){System.out.print(str + " ");}
     }
 }
@@ -50,3 +51,10 @@ public class SortArrayCustomize {
 >NullPointerException - if the argument is null  
 >Since:  
 >1.8  
+
+#### Interface ToIntFunction<T>
+
+This is a functional interface and can therefore be used as the assignment target for a lambda expression or method reference.
+#### String::length
+
+- The double colon (::) operator, also known as method reference operator in Java, is used to call a method by referring to it with the help of its class directly. They behave exactly as the lambda expressions. The only difference it has from lambda expressions is that this uses direct reference to the method by name instead of providing a delegate to the method.
