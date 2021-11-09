@@ -52,9 +52,18 @@ public class SortArrayCustomize {
 >Since:  
 >1.8  
 
-#### Interface ToIntFunction<T>
+#### [interface ToIntFunction<T>](https://docs.oracle.com/javase/8/docs/api/java/util/function/ToIntFunction.html)
 
 This is a functional interface and can therefore be used as the assignment target for a lambda expression or method reference.
 #### String::length
 
 - The double colon (::) operator, also known as method reference operator in Java, is used to call a method by referring to it with the help of its class directly. They behave exactly as the lambda expressions. The only difference it has from lambda expressions is that this uses direct reference to the method by name instead of providing a delegate to the method.
+
+### Related Leetcode Questions
+- [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain/)
+
+
+### References
+- [Double colon (::) operator in Java](https://www.geeksforgeeks.org/double-colon-operator-in-java/)  
+- [ToIntFunction](https://docs.oracle.com/javase/8/docs/api/java/util/function/ToIntFunction.html)  
+- [Interface Comparator<T>](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html#comparingInt-java.util.function.ToIntFunction-)
