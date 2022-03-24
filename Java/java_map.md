@@ -8,7 +8,7 @@
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/comparisonTable.png)
 
-[975. Odd Even Jump](https://leetcode.com/problems/odd-even-jump/) uses TreeMap
-
 ### [TreeMap](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
-Additional methods available: ceilingKey(key), floorKey(key), higherKey(key), lowerKey(key)
+Additional methods available: ceilingKey(key), floorKey(key), higherKey(key), lowerKey(key)  
+
+[975. Odd Even Jump](https://leetcode.com/problems/odd-even-jump/) uses TreeMap  
